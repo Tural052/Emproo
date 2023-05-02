@@ -1,0 +1,31 @@
+.NavigationBox{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userBox{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.userBox>button{
+    margin-left: 20px;
+}
+
+.iconBox>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.iconBox>div:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.127);
+}

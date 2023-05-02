@@ -1,0 +1,336 @@
+{
+  "groups": [
+    {
+      "id":1,
+      "qrup": "2450a",
+      "ixtisas": "Kompüter mühəndisliyi",
+      "ixtisasCodu": "138242",
+      "fenler":[
+        {
+          "id":1,
+          "name":"Bulud texnologiyalar"
+        },
+        {
+          "id":2,
+          "name":"Kompüter şəbəkələri"
+        },
+        {
+          "id":3,
+          "name":"Formal dillər və avtomatlar nəzəriyyəsi"
+        },
+        {
+          "id":4,
+          "name":"Rəqəmsal sistemlər"
+        },
+        {
+          "id":5,
+          "name":"Uçuş informasiyasının emalı sistemləri"
+        }
+      ],
+      "users": [
+        {
+          "id": 1,
+          "surname": "Matlı",
+          "name": "Metin",
+          "email": "mmatli.31496@naa.edu.az",
+          "password": "Hdx26472"
+        },
+        {
+          "id": 2,
+          "surname": "Abidov",
+          "name": "Serxan",
+          "email": "sabidov.31309@naa.edu.az",
+          "password": "Weg93341"
+        },
+        {
+          "id": 3,
+          "surname": "Muxtarov",
+          "name": "Nəsib",
+          "email": "nmuxtarov.31558@naa.edu.az",
+          "password": "Fja94927"
+        },
+        {
+          "id": 4,
+          "surname": "Əliyev",
+          "name": "Səfər",
+          "email": "saliyev.31391@naa.edu.az",
+          "password": "Vla13065"
+        },
+        {
+          "id": 5,
+          "surname": "Xanaliyev",
+          "name": "Tural",
+          "email": "txanaliyev.31684@naa.edu.az",
+          "password": "Ssf52630"
+        },
+        {
+          "id": 6,
+          "surname": "HÜSEYNZADƏ",
+          "name": "SƏMRA",
+          "email": "shuseynzada.31457@naa.edu.az",
+          "password": "Pmy89916"
+        },
+        {
+          "id": 7,
+          "surname": "HƏSƏNLİ",
+          "name": "MƏTLƏB",
+          "email": "mhasanli.31436@naa.edu.az",
+          "password": "Aap44814"
+        },
+        {
+          "id": 8,
+          "surname": "ALLAHVERƏNOV",
+          "name": "NİHAD",
+          "email": "nallahveranov.31321@naa.edu.az",
+          "password": "Sbd51841"
+        },
+        {
+          "id": 9,
+          "surname": "SADIQOVA",
+          "name": "AYSEL",
+          "email": "asadiqova.31641@naa.edu.az",
+          "password": "Wrl97059"
+        },
+        {
+          "id": 10,
+          "surname": "SEYİDOVA",
+          "name": "NÜBAR",
+          "email": "nseyidova.31667@naa.edu.az",
+          "password": "Kku50838"
+        }
+      ]
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "surname": "Kəlbiyev",
+      "name": "Namiq",
+      "email": "kelbiliyev@gmail.com",
+      "password": "1234",
+      "qrup": [
+        {
+          "qrup": "2450a",
+          "ixtisas": "Kompüter mühəndisliyi",
+          "ixtisasCodu": "138242",
+          "lesson": [
+            {
+              "id": 1,
+              "name": "Formal dillər və Avtomatlar Nəzəriyyəsinə Girş."
+            },
+            {
+              "id": 1,
+              "name": "Formal dillər və Avtomatlar Nəzəriyyəsinə Girş."
+            }
+          ],
+          "si": [
+            {
+              "id": 1,
+              "name": "Alqoritmlər. Rekursiya və Rekursiv alqoritmlər. Optimallaşdırma alqoritmləri",
+              "date": "3"
+            },
+            {
+              "id": 2,
+              "name": "Formal dillər və qramatikalar. Dillər üzərində əməliyyatlar",
+              "date": "5"
+            }
+          ],
+          "lab": [
+            {
+              "id": 1,
+              "name": "Hesablama və optimallaşdırma alqoritmləri ilə problem həlli",
+              "date": "28-02-2023"
+            },
+            {
+              "id": 2,
+              "name": "Formal sistemlər və qrammatikalar üzərində əməllərin təhlili",
+              "date": "14.03.2023"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "surname": "Matlı",
+      "name": "Metin",
+      "email": "mmatli.31496@naa.edu.az",
+      "password": "Hdx26472",
+      "qroup":"2450a"
+    },
+    {
+      "id": 2,
+      "surname": "Abidov",
+      "name": "Serxan",
+      "email": "sabidov.31309@naa.edu.az",
+      "password": "Weg93341",
+      "qroup":"2450a"
+    },
+    {
+      "id": 3,
+      "surname": "Muxtarov",
+      "name": "Nəsib",
+      "email": "nmuxtarov.31558@naa.edu.az",
+      "password": "Fja94927",
+      "qroup":"2450a"
+    },
+    {
+      "id": 4,
+      "surname": "Əliyev",
+      "name": "Səfər",
+      "email": "saliyev.31391@naa.edu.az",
+      "password": "Vla13065",
+      "qroup":"2450a"
+    },
+    {
+      "id": 5,
+      "surname": "Xanaliyev",
+      "name": "Tural",
+      "email": "txanaliyev.31684@naa.edu.az",
+      "password": "Ssf52630",
+      "qroup":"2450a"
+    },
+    {
+      "id": 6,
+      "surname": "HÜSEYNZADƏ",
+      "name": "SƏMRA",
+      "email": "shuseynzada.31457@naa.edu.az",
+      "password": "Pmy89916",
+      "qroup":"2450a"
+    },
+    {
+      "id": 7,
+      "surname": "HƏSƏNLİ",
+      "name": "MƏTLƏB",
+      "email": "mhasanli.31436@naa.edu.az",
+      "password": "Aap44814",
+      "qroup":"2450a"
+    },
+    {
+      "id": 8,
+      "surname": "ALLAHVERƏNOV",
+      "name": "NİHAD",
+      "email": "nallahveranov.31321@naa.edu.az",
+      "password": "Sbd51841",
+      "qroup":"2450a"
+    },
+    {
+      "id": 9,
+      "surname": "SADIQOVA",
+      "name": "AYSEL",
+      "email": "asadiqova.31641@naa.edu.az",
+      "password": "Wrl97059",
+      "qroup":"2450a"
+    },
+    {
+      "id": 10,
+      "surname": "SEYİDOVA",
+      "name": "NÜBAR",
+      "email": "nseyidova.31667@naa.edu.az",
+      "password": "Kku50838",
+      "qroup":"2450a"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "job":"student",
+      "surname": "Matlı",
+      "name": "Metin",
+      "email": "mmatli.31496@naa.edu.az",
+      "password": "Hdx26472",
+      "qroup":"2450a"
+    },
+    {
+      "id": 2,
+      "job":"student",
+      "surname": "Abidov",
+      "name": "Serxan",
+      "email": "sabidov.31309@naa.edu.az",
+      "password": "Weg93341",
+      "qroup":"2450a"
+    },
+    {
+      "id": 3,
+      "job":"student",
+      "surname": "Muxtarov",
+      "name": "Nəsib",
+      "email": "nmuxtarov.31558@naa.edu.az",
+      "password": "Fja94927",
+      "qroup":"2450a"
+    },
+    {
+      "id": 4,
+      "job":"student",
+      "surname": "Əliyev",
+      "name": "Səfər",
+      "email": "saliyev.31391@naa.edu.az",
+      "password": "Vla13065",
+      "qroup":"2450a"
+    },
+    {
+      "id": 5,
+      "job":"student",
+      "surname": "Xanaliyev",
+      "name": "Tural",
+      "email": "txanaliyev.31684@naa.edu.az",
+      "password": "Ssf52630",
+      "qroup":"2450a"
+    },
+    {
+      "id": 6,
+      "job":"student",
+      "surname": "HÜSEYNZADƏ",
+      "name": "SƏMRA",
+      "email": "shuseynzada.31457@naa.edu.az",
+      "password": "Pmy89916",
+      "qroup":"2450a"
+    },
+    {
+      "id": 7,
+      "job":"student",
+      "surname": "HƏSƏNLİ",
+      "name": "MƏTLƏB",
+      "email": "mhasanli.31436@naa.edu.az",
+      "password": "Aap44814",
+      "qroup":"2450a"
+    },
+    {
+      "id": 8,
+      "job":"student",
+      "surname": "ALLAHVERƏNOV",
+      "name": "NİHAD",
+      "email": "nallahveranov.31321@naa.edu.az",
+      "password": "Sbd51841",
+      "qroup":"2450a"
+    },
+    {
+      "id": 9,
+      "job":"student",
+      "surname": "SADIQOVA",
+      "name": "AYSEL",
+      "email": "asadiqova.31641@naa.edu.az",
+      "password": "Wrl97059",
+      "qroup":"2450a"
+    },
+    {
+      "id": 10,
+      "job":"student",
+      "surname": "SEYİDOVA",
+      "name": "NÜBAR",
+      "email": "nseyidova.31667@naa.edu.az",
+      "password": "Kku50838",
+      "qroup":"2450a"
+    },
+    {
+      "id": 11,
+      "job":"teacher",
+      "surname": "Kəlbiyev",
+      "name": "Namiq",
+      "email": "kelbiliyev@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
