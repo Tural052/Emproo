@@ -5,13 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+ul{
+  list-style-type: none;
+}
 .container_form {
   display: flex;
   justify-content: center;
@@ -44,4 +48,41 @@ code {
   background-size: cover;
   opacity: 0.5;
   position: absolute;
+}
+.overiew{
+  padding: 10px;
+  padding-top: 0;
+}
+.overiew .css-130cddn,
+.overiew .css-14lmva,
+.overiew .css-qcyv6g{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+.meetingsList span{
+  font-weight: 700;
+  font-size: 25px;
+  margin-right: 10px;
+  display: inline-block;
+  min-width: 30px;
+}
+.meetingsList__item>p{
+  font-size: 20px;display: flex;
+  align-items: center;
+}
+.span{
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+
+.meetingsList__item{
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
 }

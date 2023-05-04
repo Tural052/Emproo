@@ -9,28 +9,28 @@
         {
           "id": 1,
           "name": "Bulud texnologiyalar",
-          "link":"bulud-texnologiyalar"
+          "link": "bulud-texnologiyalar"
         },
         {
           "id": 2,
           "name": "Kompüter şəbəkələri",
-          "link":"kompüter-şəbəkələri"
+          "link": "kompüter-şəbəkələri"
         },
         {
           "id": 3,
           "name": "Formal dillər və avtomatlar nəzəriyyəsi",
-          "link":"formal-dillər-və-avtomatlar-nəzəriyyəsi",
-          "teacher":"Kəlbiyev Namiq"
+          "link": "formal-dillər-və-avtomatlar-nəzəriyyəsi",
+          "teacher": "Kəlbiyev Namiq"
         },
         {
           "id": 4,
           "name": "Rəqəmsal sistemlər",
-          "link":"rəqəmsal-sistemlər"
+          "link": "rəqəmsal-sistemlər"
         },
         {
           "id": 5,
           "name": "Uçuş informasiyasının emalı sistemləri",
-          "link":"uçuş-informasiyasının-emalı-sistemləri"
+          "link": "uçuş-informasiyasının-emalı-sistemləri"
         }
       ],
       "users": [
@@ -135,49 +135,49 @@
             },
             {
               "id": 3,
-              "name":"Rekursiya və Rekusiv alqoritmlər.",
+              "name": "Rekursiya və Rekusiv alqoritmlər.",
               "type": "M",
               "date": "2023-03-01"
             },
             {
               "id": 4,
-              "name":"Avtomat nəzəriyyəsi. Avtomatların sinifləri.",
+              "name": "Avtomat nəzəriyyəsi. Avtomatların sinifləri.",
               "type": "M",
               "date": "2023-03-08"
             },
             {
               "id": 5,
-              "name":"Alqoritmlər nəzəriyyəsinin anlayışları. Avtomat və alqoritmlərin növləri.",
+              "name": "Alqoritmlər nəzəriyyəsinin anlayışları. Avtomat və alqoritmlərin növləri.",
               "type": "S",
               "date": "2023-02-21"
             },
             {
               "id": 6,
-              "name":"Rekursiv funksiyalar. Rekursiv alqoritmlərə dair məsələlər.",
+              "name": "Rekursiv funksiyalar. Rekursiv alqoritmlərə dair məsələlər.",
               "type": "S",
               "date": "2023-03-07"
             },
             {
-              "id":7,
-              "name":"Düzgün dillər və qramatikalar üzərində əməllərə dair məsələ həlli.",
+              "id": 7,
+              "name": "Düzgün dillər və qramatikalar üzərində əməllərə dair məsələ həlli.",
               "type": "S",
               "date": "2023-03-21"
             },
             {
               "id": 8,
-              "name":"Hesablama və optimallaşdırma alqoritmləri ilə problem həlli",
+              "name": "Hesablama və optimallaşdırma alqoritmləri ilə problem həlli",
               "type": "L",
               "date": "2023-02-28"
             },
             {
               "id": 9,
-              "name":"Formal sistemlər və qrammatikalar üzərində əməllərin təhlili.",
+              "name": "Formal sistemlər və qrammatikalar üzərində əməllərin təhlili.",
               "type": "L",
               "date": "2023-03-14"
             },
             {
               "id": 10,
-              "name":"Dil tanıyıcıları ilə problem həlli.",
+              "name": "Dil tanıyıcıları ilə problem həlli.",
               "type": "L",
               "date": "2023-03-28"
             }

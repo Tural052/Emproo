@@ -1,0 +1,20 @@
+.pageHelper{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.pageHelper>h1{
+    text-transform: uppercase;
+}
+
+.pageHelper>ul>li{
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.pageHelper>ul{
+    display: flex;
+    justify-content: center;
+}
