@@ -1,30 +1,36 @@
 {
   "groups": [
     {
-      "id":1,
+      "id": 1,
       "qrup": "2450a",
       "ixtisas": "Kompüter mühəndisliyi",
       "ixtisasCodu": "138242",
-      "fenler":[
+      "fenler": [
         {
-          "id":1,
-          "name":"Bulud texnologiyalar"
+          "id": 1,
+          "name": "Bulud texnologiyalar",
+          "link":"bulud-texnologiyalar"
         },
         {
-          "id":2,
-          "name":"Kompüter şəbəkələri"
+          "id": 2,
+          "name": "Kompüter şəbəkələri",
+          "link":"kompüter-şəbəkələri"
         },
         {
-          "id":3,
-          "name":"Formal dillər və avtomatlar nəzəriyyəsi"
+          "id": 3,
+          "name": "Formal dillər və avtomatlar nəzəriyyəsi",
+          "link":"formal-dillər-və-avtomatlar-nəzəriyyəsi",
+          "teacher":"Kəlbiyev Namiq"
         },
         {
-          "id":4,
-          "name":"Rəqəmsal sistemlər"
+          "id": 4,
+          "name": "Rəqəmsal sistemlər",
+          "link":"rəqəmsal-sistemlər"
         },
         {
-          "id":5,
-          "name":"Uçuş informasiyasının emalı sistemləri"
+          "id": 5,
+          "name": "Uçuş informasiyasının emalı sistemləri",
+          "link":"uçuş-informasiyasının-emalı-sistemləri"
         }
       ],
       "users": [
@@ -108,19 +114,72 @@
       "name": "Namiq",
       "email": "kelbiliyev@gmail.com",
       "password": "1234",
-      "qrup": [
+      "qrups": [
         {
           "qrup": "2450a",
           "ixtisas": "Kompüter mühəndisliyi",
           "ixtisasCodu": "138242",
+          "fennAdi": "Formal dillər və avtomatlar nəzəriyyəsi",
           "lesson": [
             {
               "id": 1,
-              "name": "Formal dillər və Avtomatlar Nəzəriyyəsinə Girş."
+              "name": "Formal dillər və Avtomatlar Nəzəriyyəsinə Girş.",
+              "type": "M",
+              "date": "2023-02-17"
             },
             {
-              "id": 1,
-              "name": "Formal dillər və Avtomatlar Nəzəriyyəsinə Girş."
+              "id": 2,
+              "name": "Maşınlar, Dillər və Alqoritmlər.",
+              "type": "M",
+              "date": "2023-02-22"
+            },
+            {
+              "id": 3,
+              "name":"Rekursiya və Rekusiv alqoritmlər.",
+              "type": "M",
+              "date": "2023-03-01"
+            },
+            {
+              "id": 4,
+              "name":"Avtomat nəzəriyyəsi. Avtomatların sinifləri.",
+              "type": "M",
+              "date": "2023-03-08"
+            },
+            {
+              "id": 5,
+              "name":"Alqoritmlər nəzəriyyəsinin anlayışları. Avtomat və alqoritmlərin növləri.",
+              "type": "S",
+              "date": "2023-02-21"
+            },
+            {
+              "id": 6,
+              "name":"Rekursiv funksiyalar. Rekursiv alqoritmlərə dair məsələlər.",
+              "type": "S",
+              "date": "2023-03-07"
+            },
+            {
+              "id":7,
+              "name":"Düzgün dillər və qramatikalar üzərində əməllərə dair məsələ həlli.",
+              "type": "S",
+              "date": "2023-03-21"
+            },
+            {
+              "id": 8,
+              "name":"Hesablama və optimallaşdırma alqoritmləri ilə problem həlli",
+              "type": "L",
+              "date": "2023-02-28"
+            },
+            {
+              "id": 9,
+              "name":"Formal sistemlər və qrammatikalar üzərində əməllərin təhlili.",
+              "type": "L",
+              "date": "2023-03-14"
+            },
+            {
+              "id": 10,
+              "name":"Dil tanıyıcıları ilə problem həlli.",
+              "type": "L",
+              "date": "2023-03-28"
             }
           ],
           "si": [
@@ -158,7 +217,7 @@
       "name": "Metin",
       "email": "mmatli.31496@naa.edu.az",
       "password": "Hdx26472",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 2,
@@ -166,7 +225,7 @@
       "name": "Serxan",
       "email": "sabidov.31309@naa.edu.az",
       "password": "Weg93341",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 3,
@@ -174,7 +233,7 @@
       "name": "Nəsib",
       "email": "nmuxtarov.31558@naa.edu.az",
       "password": "Fja94927",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 4,
@@ -182,7 +241,7 @@
       "name": "Səfər",
       "email": "saliyev.31391@naa.edu.az",
       "password": "Vla13065",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 5,
@@ -190,7 +249,7 @@
       "name": "Tural",
       "email": "txanaliyev.31684@naa.edu.az",
       "password": "Ssf52630",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 6,
@@ -198,7 +257,7 @@
       "name": "SƏMRA",
       "email": "shuseynzada.31457@naa.edu.az",
       "password": "Pmy89916",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 7,
@@ -206,7 +265,7 @@
       "name": "MƏTLƏB",
       "email": "mhasanli.31436@naa.edu.az",
       "password": "Aap44814",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 8,
@@ -214,7 +273,7 @@
       "name": "NİHAD",
       "email": "nallahveranov.31321@naa.edu.az",
       "password": "Sbd51841",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 9,
@@ -222,7 +281,7 @@
       "name": "AYSEL",
       "email": "asadiqova.31641@naa.edu.az",
       "password": "Wrl97059",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 10,
@@ -230,103 +289,103 @@
       "name": "NÜBAR",
       "email": "nseyidova.31667@naa.edu.az",
       "password": "Kku50838",
-      "qroup":"2450a"
+      "qroup": "2450a"
     }
   ],
   "users": [
     {
       "id": 1,
-      "job":"student",
+      "job": "student",
       "surname": "Matlı",
       "name": "Metin",
       "email": "mmatli.31496@naa.edu.az",
       "password": "Hdx26472",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 2,
-      "job":"student",
+      "job": "student",
       "surname": "Abidov",
       "name": "Serxan",
       "email": "sabidov.31309@naa.edu.az",
       "password": "Weg93341",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 3,
-      "job":"student",
+      "job": "student",
       "surname": "Muxtarov",
       "name": "Nəsib",
       "email": "nmuxtarov.31558@naa.edu.az",
       "password": "Fja94927",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 4,
-      "job":"student",
+      "job": "student",
       "surname": "Əliyev",
       "name": "Səfər",
       "email": "saliyev.31391@naa.edu.az",
       "password": "Vla13065",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 5,
-      "job":"student",
+      "job": "student",
       "surname": "Xanaliyev",
       "name": "Tural",
       "email": "txanaliyev.31684@naa.edu.az",
       "password": "Ssf52630",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 6,
-      "job":"student",
+      "job": "student",
       "surname": "HÜSEYNZADƏ",
       "name": "SƏMRA",
       "email": "shuseynzada.31457@naa.edu.az",
       "password": "Pmy89916",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 7,
-      "job":"student",
+      "job": "student",
       "surname": "HƏSƏNLİ",
       "name": "MƏTLƏB",
       "email": "mhasanli.31436@naa.edu.az",
       "password": "Aap44814",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 8,
-      "job":"student",
+      "job": "student",
       "surname": "ALLAHVERƏNOV",
       "name": "NİHAD",
       "email": "nallahveranov.31321@naa.edu.az",
       "password": "Sbd51841",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 9,
-      "job":"student",
+      "job": "student",
       "surname": "SADIQOVA",
       "name": "AYSEL",
       "email": "asadiqova.31641@naa.edu.az",
       "password": "Wrl97059",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 10,
-      "job":"student",
+      "job": "student",
       "surname": "SEYİDOVA",
       "name": "NÜBAR",
       "email": "nseyidova.31667@naa.edu.az",
       "password": "Kku50838",
-      "qroup":"2450a"
+      "qroup": "2450a"
     },
     {
       "id": 11,
-      "job":"teacher",
+      "job": "teacher",
       "surname": "Kəlbiyev",
       "name": "Namiq",
       "email": "kelbiliyev@gmail.com",

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Home from './../features/main/Home';
-import StudentPlans from '../features/main/StudentPlans';
+import StudentPlans from '../features/studentsPlans/StudentPlans';
 import Form from '../features/main/Login';
 import { routing } from '../globalRouting';
 import { selectAllUsers } from '../features/redux/usersSlice';
@@ -9,6 +9,9 @@ import { useSelector } from 'react-redux';
 import { selectAllTeachers } from '../features/redux/teachersSlice';
 import { selectAllStudents } from '../features/redux/studentsSlice';
 import { selectAllGroups } from '../features/redux/groupSlice';
+import Overview from '../features/studentsPlans/Overview';
+import MeetingsList from '../features/studentsPlans/MeetingsList';
+import DiscussionList from '../features/studentsPlans/DiscussionList';
 const Dashbord = () => {
   const user = localStorage.getItem('user') || ''
   const allUser = useSelector(selectAllUsers)
@@ -18,12 +21,13 @@ const Dashbord = () => {
   let selectUser = allUser.find((item) => item.email === user)
   let userJob = selectUser && selectUser.job;
   let userAllData = user && userJob === 'teacher' ? {
-      ...allTeacher.find((item) => item.email === user)
-    } : {
-      ...allStudent.find((item) => item.email === user),
-      ...allGroup.find((item) => item.group === user.group)
-    }
+    ...allTeacher.find((item) => item.email === user)
+  } : {
+    ...allStudent.find((item) => item.email === user),
+    ...allGroup.find((item) => item.group === user.group)
+  }
 
+  let selectGroup = allGroup.find((item) => item.group === userAllData.group)
   
 
   const navigate = useNavigate()
@@ -38,6 +42,9 @@ const Dashbord = () => {
         <Route path='/login' element={<Form />} />
         <Route path='/' element={<Home selectUser={userAllData} />} />
         <Route path='/studenPlans' element={<StudentPlans selectUser={userAllData} />} />
+        <Route path='/fenler/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />
+        <Route path='/fenler/:id/meetings/list' element={<MeetingsList selectUser={selectUser} selectGroup={selectGroup} />} />
+        <Route path='/fenler/:id/discussion/list' element={<DiscussionList selectUser={selectUser} selectGroup={selectGroup} />} />
       </Routes>
 
     </>

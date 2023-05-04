@@ -10,23 +10,22 @@ import "semantic-ui-css/semantic.min.css";
 import { studentsSlice } from "./features/redux/studentsSlice";
 import { teachersSlice } from "./features/redux/teachersSlice";
 import { usersSlice } from "./features/redux/usersSlice";
-import { AuthProvider} from "./features/context/AuthProvider";
+import { AuthProvider } from "./features/context/AuthProvider";
 import { groupsSlice } from "./features/redux/groupSlice";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
-store.dispatch(teachersSlice.endpoints.getTeachers.initiate())
-store.dispatch(studentsSlice.endpoints.getStudents.initiate())
-store.dispatch(usersSlice.endpoints.getUsers.initiate())
-store.dispatch(groupsSlice.endpoints.getgroups.initiate())
+store.dispatch(teachersSlice.endpoints.getTeachers.initiate());
+store.dispatch(studentsSlice.endpoints.getStudents.initiate());
+store.dispatch(usersSlice.endpoints.getUsers.initiate());
+store.dispatch(groupsSlice.endpoints.getgroups.initiate());
 root.render(
   <BrowserRouter>
     <Provider store={store}>
       <AuthProvider>
-      <App />
+        <App />
       </AuthProvider>
-      
     </Provider>
   </BrowserRouter>
 );

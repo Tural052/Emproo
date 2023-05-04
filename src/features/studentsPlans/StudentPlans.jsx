@@ -3,20 +3,20 @@ import Navigation from '../helper/navigation/Navigation'
 import { Grid, Segment } from 'semantic-ui-react'
 import { routing } from '../../globalRouting'
 import { useNavigate } from 'react-router-dom'
-const StudentPlans = ({selectUser}) => {
+const StudentPlans = ({ selectUser }) => {
   let navigation = useNavigate()
-  let fenler =selectUser!==undefined && selectUser.fenler
+  let fenler = selectUser !== undefined && selectUser.fenler
   console.log(fenler)
   let renderde = fenler && fenler.map((item) => {
-    return(
-      <Segment key={item.id} onClick = {() => {
-        routing.to(navigation, `/fenler/${item.name}`, item.id)
+    return (
+      <Segment key={item.id} onClick={() => {
+        routing.to(navigation, `/fenler/${item.id}/overview`, item.id)
       }}>{item.name}</Segment>
     )
   })
   return (
     <div>
-      <Navigation selectUser={selectUser}/>
+      <Navigation selectUser={selectUser} />
       <Grid columns={2} >
         <Grid.Column>
           <Segment>1</Segment>
