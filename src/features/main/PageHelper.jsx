@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useParams } from "react-router-dom";
 import Navigation from '../helper/navigation/Navigation';
-import styles from './studentsPlans.module.css'
+import styles from './../studentsPlans/studentsPlans.module.css'
 const PageHelper = ({ selectGroup, selectUser }) => {
     const { id } = useParams();
 

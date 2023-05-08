@@ -86,3 +86,21 @@ ul{
   margin: 10px;
   border-radius: 10px;
 }
+
+.pagination a{
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid black;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.pagination a:hover{
+  background-color: black;
+  color: white;
+}
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}

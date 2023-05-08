@@ -1,5 +1,5 @@
 import React from 'react'
-import PageHelper from './PageHelper'
+import PageHelper from '../main/PageHelper'
 
 const DiscussionList = ({selectUser,selectGroup}) => {
   return (

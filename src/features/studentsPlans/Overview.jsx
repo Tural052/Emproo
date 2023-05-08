@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, GridItem } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
-import PageHelper from "./PageHelper";
+import PageHelper from "../main/PageHelper";
 const Overview = ({ selectUser, selectGroup }) => {
     const { id } = useParams();
 
@@ -64,9 +64,9 @@ const Overview = ({ selectUser, selectGroup }) => {
                     <p>Tələbələr</p>
                     {
 
-                      <ul>
-                          {renderedDetalsStudenst}
-                      </ul>
+                        <ul>
+                            {renderedDetalsStudenst}
+                        </ul>
                     }
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={2} border={"1px"}>1</GridItem>

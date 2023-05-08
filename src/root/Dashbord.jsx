@@ -10,7 +10,7 @@ import { selectAllTeachers } from '../features/redux/teachersSlice';
 import { selectAllStudents } from '../features/redux/studentsSlice';
 import { selectAllGroups } from '../features/redux/groupSlice';
 import Overview from '../features/studentsPlans/Overview';
-import MeetingsList from '../features/studentsPlans/MeetingsList';
+import MeetingsList from '../features/main/MeetingsList';
 import DiscussionList from '../features/studentsPlans/DiscussionList';
 const Dashbord = () => {
   const user = localStorage.getItem('user') || ''
@@ -43,8 +43,9 @@ const Dashbord = () => {
         <Route path='/' element={<Home selectUser={userAllData} />} />
         <Route path='/studenPlans' element={<StudentPlans selectUser={userAllData} />} />
         <Route path='/fenler/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />
-        <Route path='/fenler/:id/meetings/list' element={<MeetingsList selectUser={selectUser} selectGroup={selectGroup} />} />
+        <Route path='/fenler/:id/meetings/list' element={<MeetingsList userJob={userJob} selectUser={selectUser} selectGroup={selectGroup} />} />
         <Route path='/fenler/:id/discussion/list' element={<DiscussionList selectUser={selectUser} selectGroup={selectGroup} />} />
+        <Route path='/qrups/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />       
       </Routes>
 
     </>

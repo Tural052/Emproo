@@ -12,6 +12,7 @@ import { teachersSlice } from "./features/redux/teachersSlice";
 import { usersSlice } from "./features/redux/usersSlice";
 import { AuthProvider } from "./features/context/AuthProvider";
 import { groupsSlice } from "./features/redux/groupSlice";
+import { lessonSlice } from "./features/redux/lessonSlice";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -20,6 +21,7 @@ store.dispatch(teachersSlice.endpoints.getTeachers.initiate());
 store.dispatch(studentsSlice.endpoints.getStudents.initiate());
 store.dispatch(usersSlice.endpoints.getUsers.initiate());
 store.dispatch(groupsSlice.endpoints.getgroups.initiate());
+store.dispatch(lessonSlice.endpoints.getLessons.initiate());
 root.render(
   <BrowserRouter>
     <Provider store={store}>
