@@ -20,10 +20,17 @@ export const teachersSlice = apiSlice.injectEndpoints({
       },
       providesTags: (result, error, arg) => [{ type: "Teachers", id: "LIST" }],
     }),
+    addTeacherLessons: builder.mutation({
+      query:initialState => ({
+        url:"/teachers",
+        method:"POST",
+        body:initialState
+      })
+    })
   }),
 });
 
-export const { useGetTeachersQuery } = teachersSlice;
+export const { useGetTeachersQuery,useAddTeacherLessonsMutation } = teachersSlice;
 
 export const selectTeachersResult =
   teachersSlice.endpoints.getTeachers.select();

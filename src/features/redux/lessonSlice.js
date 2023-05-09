@@ -12,12 +12,6 @@ export const lessonSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     getLessons: builder.query({
       query: () => "/lessons",
-      transformResponse: (responsData) => {
-        return lessonAdapter.setAll(initialState, responsData);
-      },
-      transformErrorResponse: (responsData) => {
-        console.log(responsData);
-      },
       providesTags: (result, error, arg) => [{ type: "Lessons", id: "LIST" }],
     }),
     addLessons: builder.mutation({
