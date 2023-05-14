@@ -13,6 +13,10 @@ import { selectAllGroups } from '../features/redux/groupSlice';
 import Overview from '../features/studentsPlans/Overview';
 import MeetingsList from '../features/main/MeetingsList';
 import DiscussionList from '../features/studentsPlans/DiscussionList';
+import Imtahan from '../features/main/Imtahan';
+import Lab from '../features/main/Lab';
+import Serbest from '../features/main/Serbest';
+import Kol from '../features/main/Kol';
 const Dashbord = () => {
   const user = localStorage.getItem('user') || ''
   const allUser = useSelector(selectAllUsers)
@@ -46,7 +50,11 @@ const Dashbord = () => {
         <Route path='/fenler/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />
         <Route path='/fenler/:id/meetings/list' element={<MeetingsList userJob={userJob} selectUser={selectUser} selectGroup={selectGroup} />} />
         <Route path='/fenler/:id/discussion/list' element={<DiscussionList selectUser={selectUser} selectGroup={selectGroup} />} />
-        <Route path='/qrups/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />       
+        <Route path='/qrups/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />     
+        <Route path='/fenler/:id/meetings/imtahna' element={<Imtahan/>} />  
+        <Route path='/fenler/:id/meetings/labarotorlya' element={<Lab/>} />  
+        <Route path='/fenler/:id/meetings/sərbəst' element={<Serbest/>} />  
+        <Route path='/fenler/:id/meetings/kollokvium' element={<Kol/>} />  
       </Routes>
 
     </>

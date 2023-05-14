@@ -134,9 +134,7 @@
           "ixtisas": "Kompüter mühəndisliyi",
           "ixtisasCodu": "138242",
           "fennAdi": "Formal dillər",
-          "lesson": [
-            
-          ],
+          "lesson": [],
           "si": [
             {
               "id": 1,
@@ -412,14 +410,25 @@
           "type": "L",
           "date": "2023-03-28"
         }
-      ]
+      ],
+      "active": []
     },
     {
-      "id":2
+      "id": 2
     }
   ],
-  "Formal dillər":[
-    
+  "formal": [
+    {
+      "id": "VmemNoJZwu0JZk_OU2n4u",
+      "name": "Rekursiya və Rekusiv alqoritmlər.",
+      "type": "S",
+      "date": "2023-05-05T22:42"
+    },
+    {
+      "id": "vmHW34_4Q4W5XuAKRgB_h",
+      "name": "Avtomat nəzəriyyəsi. Avtomatların sinifləri.",
+      "type": "S",
+      "date": "2023-05-11T13:05"
+    }
   ]
 }
-
