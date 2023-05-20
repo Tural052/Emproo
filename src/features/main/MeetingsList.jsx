@@ -9,8 +9,7 @@ const MeetingsList = ({ selectGroup, selectUser, userJob }) => {
       <PageHelper selectGroup={selectGroup} selectUser={selectUser} />
       {userJob === "teacher" ? (
         <MeetingsListTeachers
-          selectGroup={selectGroup}
-          selectUser={selectUser}
+          userJob={userJob}
         />
       ) : (
         <MeetingsListStudenst

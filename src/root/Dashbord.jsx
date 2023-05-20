@@ -51,10 +51,10 @@ const Dashbord = () => {
         <Route path='/fenler/:id/meetings/list' element={<MeetingsList userJob={userJob} selectUser={selectUser} selectGroup={selectGroup} />} />
         <Route path='/fenler/:id/discussion/list' element={<DiscussionList selectUser={selectUser} selectGroup={selectGroup} />} />
         <Route path='/qrups/:id/overview' element={<Overview selectUser={userAllData} selectGroup={selectGroup} />} />     
-        <Route path='/fenler/:id/meetings/imtahna' element={<Imtahan/>} />  
-        <Route path='/fenler/:id/meetings/labarotorlya' element={<Lab/>} />  
-        <Route path='/fenler/:id/meetings/sərbəst' element={<Serbest/>} />  
-        <Route path='/fenler/:id/meetings/kollokvium' element={<Kol/>} />  
+        <Route path='/fenler/:id/meetings/imtahna' element={<Imtahan user={userJob}/>} />  
+        <Route path='/fenler/:id/meetings/labarotorlya' element={<Lab user={userJob}/>} />  
+        <Route path='/fenler/:id/meetings/serbest' element={<Serbest user={userJob}/>} />  
+        <Route path='/fenler/:id/meetings/kollokvium' element={<Kol user={userJob}/>} />  
       </Routes>
 
     </>

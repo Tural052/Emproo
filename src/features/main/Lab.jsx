@@ -1,7 +1,8 @@
 import React from 'react'
 import PageHelper from './PageHelper'
 import { Link } from 'react-router-dom'
-const Lab = () => {
+import AddCompanent from '../helper/addCompanent/AddCompanent'
+const Lab = ({user}) => {
     const location=window.location
   const navigate = location.pathname.split('/').slice(0, -1).join('/');
   return (
@@ -11,10 +12,10 @@ const Lab = () => {
         <Link to={`${navigate}/list`}>Aktivlik</Link>
         <Link to={`${navigate}/imtahna`}>Imtahan</Link>
         <Link to={`${navigate}/labarotorlya`}>Labarotorya iş</Link>
-        <Link to={`${navigate}/sərbəst`}>Sərbəst iş</Link>
+        <Link to={`${navigate}/serbest`}>Sərbəst iş</Link>
         <Link to={`${navigate}/kollokvium`}>Kollokvium</Link>
       </div>
-    <div>Lab</div>
+      <AddCompanent user={user}/>
     </>
   )
 }

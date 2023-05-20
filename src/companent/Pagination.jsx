@@ -27,6 +27,8 @@ const Pagination = ({ data, itemsPerPage }) => {
     <div className="meetingsList">
       <div className="data">{
         currentData && currentData.map((item) => (
+          console.log(item)
+          ,
           <div className="meetingsList__item">
             <p>
               <span>{item.type}</span>

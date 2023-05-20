@@ -409,6 +409,84 @@
           "name": "Dil tanıyıcıları ilə problem həlli.",
           "type": "L",
           "date": "2023-03-28"
+        },
+        {
+          "id": 11,
+          "name": "Avtomatlar və alqoritmlər üzərində əməllər.",
+          "type": "K",
+          "date": "2023-04-04"
+        },
+        {
+          "id": 12,
+          "name": "Sərbəst iş 1",
+          "type": "Sİ",
+          "date": "2023-04-11"
+        },
+        {
+          "id": 13,
+          "name": "Sərbəst iş 2",
+          "type": "SI",
+          "date": "2023-04-18"
+        },
+        {
+          "id": 14,
+          "name": "Sərbəst iş 3",
+          "type": "SI",
+          "date": "2023-04-25"
+        },
+        {
+          "id": 15,
+          "name": "Sərbəst iş 4",
+          "type": "SI",
+          "date": "2023-05-02"
+        },
+        {
+          "id": 16,
+          "name": "Sərbəst iş 5",
+          "type": "SI",
+          "date": "2023-05-09"
+        },
+        {
+          "id": 17,
+          "name": "Sərbəst iş 6",
+          "type": "SI",
+          "date": "2023-05-16"
+        },
+        {
+          "id": 18,
+          "name": "Sərbəst iş 7",
+          "type": "SI",
+          "date": "2023-05-23"
+        },
+        {
+          "id": 19,
+          "name": "Sərbəst iş 8",
+          "type": "SI",
+          "date": "2023-05-30"
+        },
+        {
+          "id": 20,
+          "name": "Sərbəst iş 9",
+          "type": "SI",
+          "date": "2023-06-06"
+        },
+        {
+          "id": 21,
+          "name": "Sərbəst iş 10",
+          "type": "SI",
+          "date": "2023-06-13"
+        },
+        {
+          "id": 22,
+          "name": "Sərbəst iş 11",
+          "type": "SI",
+          "date": "2023-06-20"
+        },
+        {
+          "id": 23,
+          "name": "Sərbəst iş 12",
+          "type": "SI",
+          "date": "2023-06-27"
         }
       ],
       "active": []
@@ -429,6 +507,48 @@
       "name": "Avtomat nəzəriyyəsi. Avtomatların sinifləri.",
       "type": "S",
       "date": "2023-05-11T13:05"
+    },
+    {
+      "id": "7ERFtbTEEqfxr8smM3PMK",
+      "name": "Rekursiya və Rekusiv alqoritmlər.",
+      "type": "S",
+      "date": "2023-05-10T19:08"
+    },
+    {
+      "id": "hIypNCviReGqTIqKWi6ZG",
+      "name": "Avtomatlar və alqoritmlər üzərində əməllər.",
+      "type": "K",
+      "date": "2023-05-03T19:08"
+    },
+    {
+      "id": "s5cvZ-BF8t8s_zZRLe8IZ",
+      "name": "Avtomatlar və alqoritmlər üzərində əməllər.",
+      "type": "K",
+      "date": "2023-05-06T19:09"
+    },
+    {
+      "id": "yFWTu5YdEXABQmIunY8Jn",
+      "name": "Hesablama və optimallaşdırma alqoritmləri ilə problem həlli",
+      "type": "L",
+      "date": "2023-05-03T19:16"
+    },
+    {
+      "id": "Ryavgi6XM9CeRmsT_P8N6",
+      "name": "Sərbəst iş 4",
+      "type": "SI",
+      "date": "2023-05-04T19:25"
+    },
+    {
+      "id": "loIlh7UhrafNIx7a0mNo7",
+      "name": "Formal sistemlər və qrammatikalar üzərində əməllərin təhlili.",
+      "type": "L",
+      "date": "2023-05-04T07:49"
+    },
+    {
+      "id": "1qlwX-TR3hAmyTlOdtNFA",
+      "name": "Alqoritmlər nəzəriyyəsinin anlayışları. Avtomat və alqoritmlərin növləri.",
+      "type": "M",
+      "date": "2023-05-18T09:07"
     }
   ]
 }
